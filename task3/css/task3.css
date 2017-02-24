@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Verdana,sans-serif;
+}
+
+.header {
+    position: relative;
+    background-color: #22292c;
+    height: 88px;
+    text-align: center;
+}
+a,h1 {
+    color: #fff;
+}
+h1 {
+    display: inline-block;
+}
+
+.back {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.more {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.main {
+    position: relative;
+    background: #68cdd5;
+
+}
+
+.back2 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
