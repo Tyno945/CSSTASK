@@ -1,0 +1,65 @@
+/*设置通用样式*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    font-family: 'Microsoft Yahei', sans-serif;
+    color: #ffffff;
+}
+
+.container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #eff0f4;
+}
+
+.header {
+    position: relative;
+    background-color: #5fc0cd;
+
+}
+
+.header p {
+    font-size: 3.6em;
+    text-align: center;
+    padding: 3.2%;
+}
+
+.header a {
+    position: absolute;
+    color: #ffffff;
+    font-size: 3.2em;
+    text-decoration: none;
+}
+.close {
+    top: 30%;
+    left: 5%;
+}
+
+.register {
+    top: 30%;
+    right: 5%;
+}
+
+form div {
+    position: relative;
+    height: 100px;
+    background: #ffffff;
+    margin-top: 12px;
+}
+
+form img {
+    position: absolute;
+    top: 32%;
+    left: 6%;
+}
+input {
+    border: 0;
+    font-size: 3.2em;
+    padding: 10px 0 10px 20px;
+    margin: 4% 0 0 20%;
+}
