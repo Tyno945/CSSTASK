@@ -1,41 +1,120 @@
-body {
+/*设置通用样式*/
+* {
     margin: 0;
-    font-family: Verdana,sans-serif;
+    padding: 0;
 }
 
+body {
+    color: #ffffff;
+    font-family: 'Microsoft Yahei',sans-serif;
+    font-size: 62.5%;
+}
+
+.container {
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #68cdd5;
+}
+/*以下完成header自适应布局*/
 .header {
     position: relative;
     background-color: #22292c;
-    height: 88px;
+    height: 100%;
+    max-height: 88px;
+}
+
+.header p {
+    font-size: 340%;
     text-align: center;
-}
-a,h1 {
-    color: #fff;
-}
-h1 {
-    display: inline-block;
+    padding: 3.36%;
 }
 
 .back {
     position: absolute;
-    top: 20px;
-    left: 20px;
+    top: 24%;
+    left: 3.15%;
+    width: 3.125%;
 }
 
+.back img {
+    width: 100%;
+    max-width: 20px;
+}
+a {
+    font-size: 260%;
+    text-decoration: none;
+    color: #ffffff;
+    position: absolute;
+    left:7.8%;
+    top:24%;
+}
 .more {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 42%;
+    right: 3.15%;
+    width: 6%;
+}
+.more img {
+    width: 100%;
+    max-width: 36px;
 }
 
+/*以下完成mian自适应布局*/
 .main {
     position: relative;
-    background: #68cdd5;
-
+    height: 1008px;
 }
 
-.back2 {
-    position: absolute;
-    top: 20px;
-    left: 20px;
+.back2 img {
+    padding-left:5.3%;
+    padding-top:3%;
+    width:9%;
+}
+
+.logo img {
+    margin-left:33%;
+    margin-top:10%;
+    width:30%;
+}
+
+.content {
+    line-height:180%;
+    font-size:300%;
+    padding:14%;
+}
+.ico {
+    position: relative;
+    top: 10%;
+}
+.ico p {
+    font-size: 240%;
+}
+.ico div {
+    display: inline-block;
+    text-align: center;
+}
+
+.group {
+    position: relative;
+    left: 20%;
+}
+.grape {
+    position: relative;
+    left: 35%;
+}
+/*以下进行手机响应式设计*/
+@media screen and (max-width: 580px){
+    html {
+        font-size: 42.5%;
+    }
+    .main{
+        height: 600px;
+    }
+    .grape img,.group img {
+        width:50px;
+    }
+    .ico {
+        top: 8%;
+    }
 }
