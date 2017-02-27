@@ -103,7 +103,7 @@ a {
     position: relative;
     left: 35%;
 }
-/*以下进行手机响应式设计*/
+/*以下进行手机自适应设计*/
 @media screen and (max-width: 580px){
     html {
         font-size: 42.5%;

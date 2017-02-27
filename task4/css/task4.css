@@ -45,6 +45,10 @@ body {
     right: 5%;
 }
 
+.main {
+    height: 1008px;
+}
+
 form div {
     position: relative;
     height: 100px;
@@ -56,10 +60,52 @@ form img {
     position: absolute;
     top: 32%;
     left: 6%;
+    border-right: 2px solid #efefef;
+    padding-right: 8%;
 }
 input {
     border: 0;
     font-size: 3.2em;
-    padding: 10px 0 10px 20px;
+    padding: 2% 0 2% 4%;
     margin: 4% 0 0 20%;
+    color: #cccccc;
+}
+
+.login {
+    font-size: 3.6em;
+    text-align: center;
+    margin-top: 20%;
+    background: #5fc0cd;
+    padding: 2% 0;
+}
+
+.login a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.forgetpwd {
+    color: #5fc0cd;
+    text-decoration: none;
+    font-size: 3.2em;
+    float: right;
+    margin-right: 5%;
+    margin-top: 3%;
+}
+
+/*以下进行手机自适应设计*/
+@media screen and (max-width: 580px){
+    html {
+        font-size: 42.5%;
+    }
+    .main{
+        height: 500px;
+    }
+    form img {
+        width: 15px;
+    }
+    form div {
+        height: 50px;
+        margin-top: 12px;
+    }
 }
