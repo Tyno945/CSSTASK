@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a5a11197-bfe7-46ab-a918-8fc6bed5e9c1" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/task4/css/task4.css" afterPath="$PROJECT_DIR$/task4/css/task4.css" />
     </list>
     <ignored path="CSSTask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -318,7 +317,13 @@
       <option name="project" value="LOCAL" />
       <updated>1488163044533</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="complete task4">
+      <created>1488165201668</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1488165201668</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
