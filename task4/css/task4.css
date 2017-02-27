@@ -12,8 +12,8 @@ body {
 
 .container {
     width: 100%;
-    max-width: 640px;
-    margin: 0 auto;
+    /*max-width: 640px;*/
+    /*margin: 0 auto;*/
     background-color: #eff0f4;
 }
 
@@ -69,6 +69,7 @@ input {
     padding: 2% 0 2% 4%;
     margin: 4% 0 0 20%;
     color: #cccccc;
+    outline: none;
 }
 
 .login {
